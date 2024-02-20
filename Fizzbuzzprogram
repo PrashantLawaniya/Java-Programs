@@ -1,0 +1,17 @@
+var count=[];
+var a=1
+function fizzbuzz(){
+     if(a%3===0 && a%5===0){
+          count.push("fizzbuzz");
+     }
+     else if(a%3===0){
+           count.push("Fizz");
+     } else if(a%5===0){
+           count.push("Buzz");
+} else{
+     count.push(a);
+     }
+     a++;
+     console.log(count);
+}
+
