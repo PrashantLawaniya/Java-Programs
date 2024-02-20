@@ -1,3 +1,7 @@
+
+//program to write 1 to 100 numbers in array. and if a number s divisibe by 3 then the number is replaced by Fizz  and if number is divisible by 5 then 
+a number is replaced by Buzz and if number is divisible by both 3 and 5 then number is replaced by Fizzbuzz.
+
 var count=[];
 var a=1
 function fizzbuzz(){
