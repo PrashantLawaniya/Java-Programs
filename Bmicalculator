@@ -1,0 +1,7 @@
+//Program to calculate bmi of person in javacript funtion
+function bmicalculator(weight,height){
+    var bmi=weight/Math.pow(height,2);
+    return bmi;
+    
+}
+bmicalculator(40,3);
