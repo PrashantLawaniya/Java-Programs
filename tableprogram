@@ -1,0 +1,8 @@
+//function to print table of any number in javascript.
+function number(n){
+    for(var i=1;i<=10;i++){
+    var table=n*i;
+         console.log(table);
+    }
+}
+number(3)
